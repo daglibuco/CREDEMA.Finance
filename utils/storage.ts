@@ -160,7 +160,7 @@ formattedDeals      }
         monthsElapsed: d.months_elapsed,
         walletStatus: d.wallet_status,
         walletAddress: d.wallet_address,
-        last_oracle_check: d.last_oracle_check,
+        lastOracleCheck: d.last_oracle_check,
         seedInvestorVerified: d.seed_investor_verified,
         status: d.status,
         growthMetrics: d.growth_metrics,
