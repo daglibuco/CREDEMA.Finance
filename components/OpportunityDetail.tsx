@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { LoanDeal, Language, User, BlogPost } from '../types';
-import { GoogleGenAI, LiveServerMessage, Modality } from "@google/genai";
+import { GoogleGenAI, LiveServerMessage, Modality } from "@google/generative-ai";
 import { ArrowLeft, Send, Mic, MicOff, Loader2, Activity, Shield, Video, PenTool, Printer, Lock } from 'lucide-react';
 import { TRANSLATIONS } from '../utils/translations';
 import { InfoTooltip } from './InfoTooltip';
