@@ -137,8 +137,7 @@ export const StorageService = {
           }));
           
           await supabase.from('deals').insert(formattedDeals);
-          return MOCK_DEALS;
-      }
+formattedDeals      }
 
       const deals = data.map((d: any) => ({
         id: d.id,
