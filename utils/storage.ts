@@ -192,6 +192,7 @@ export const StorageService = {
        leverage_amount: deal.leverageAmount,
        seed_investor_verified: deal.seedInvestorVerified,
        investor_note: deal.investorNote
+                  last_oracle_check: deal.lastOracleCheck
     };
 
     await supabase.from('deals').update(dbDeal).eq('id', deal.id);
