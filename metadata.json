@@ -1,0 +1,7 @@
+{
+  "name": "CREDEMA.FINANCE",
+  "description": "Eine professionelle Plattform für das Dreiecks-Finanzierungsmodell: Seed-Investoren (Produkt), Gründer (Glaubwürdigkeits-Einlage) und Fremdkapitalgeber (Wachstum).",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
